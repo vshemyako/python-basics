@@ -6,3 +6,5 @@ print(message)
 
 message = "Are you kidding me?"
 print(message)
+
+"It's possible to declare a value without assigning it to a name"

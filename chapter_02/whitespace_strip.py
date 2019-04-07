@@ -1,4 +1,4 @@
-user_input = " happy new year"
+user_input = "\r happy new year \n \t"
 print(user_input)
 
 user_input = user_input.strip()

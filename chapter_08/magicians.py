@@ -2,6 +2,7 @@ def make_great(magicians: [str]) -> [str]:
     great_template = "{} the Great"
     for index, value in enumerate(magicians):
         magicians[index] = great_template.format(value)
+    return magicians
 
 
 def show_magicians(magicians: [str]) -> None:
@@ -10,5 +11,6 @@ def show_magicians(magicians: [str]) -> None:
 
 
 magicians = ["Merlin", "Gandalf", "Dumbledore"]
-make_great(magicians)
+great_magicians = make_great(magicians[:])
 show_magicians(magicians)
+show_magicians(great_magicians)
